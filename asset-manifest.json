@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/rick-and-morty-character-wiki/static/css/main.26ab1703.css",
+    "main.js": "/rick-and-morty-character-wiki/static/js/main.2f35847d.js",
+    "static/js/787.745e99b1.chunk.js": "/rick-and-morty-character-wiki/static/js/787.745e99b1.chunk.js",
+    "index.html": "/rick-and-morty-character-wiki/index.html",
+    "main.26ab1703.css.map": "/rick-and-morty-character-wiki/static/css/main.26ab1703.css.map",
+    "main.2f35847d.js.map": "/rick-and-morty-character-wiki/static/js/main.2f35847d.js.map",
+    "787.745e99b1.chunk.js.map": "/rick-and-morty-character-wiki/static/js/787.745e99b1.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.26ab1703.css",
+    "static/js/main.2f35847d.js"
+  ]
+}
