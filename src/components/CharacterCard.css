@@ -1,0 +1,73 @@
+.character-card {
+  background-color: rgb(147, 144, 144);
+  border-radius: 5%;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  transition: 0.3s;
+  position: relative;
+  display: inline-block;
+  text-align: center;
+  border: 1.5px solid #61c6c4;
+  overflow: hidden;
+}
+
+.badge {
+  position: absolute;
+  right: 15px;
+  top: 15px;
+  color: white;
+  padding: 4px 8px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 18px;
+}
+
+.badge.dead {
+  background-color: red;
+}
+
+.badge.alive {
+  background-color: green;
+}
+
+.badge.unknown{
+    background-color: grey;
+    text-transform: capitalize;
+}
+
+.character-card:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.4);
+}
+
+.character-image {
+  width: 100%;
+  border-top-left-radius: 5%;
+  border-top-right-radius: 5%;
+}
+
+.character-name{
+  border-bottom: 2.5px solid #61c6c4;
+  padding-bottom: 5px;
+}
+
+.character-info {
+  margin: 0.5rem;
+  margin-top: 0%;
+  color: white;
+  padding: 0.2rem;
+  padding-top: 0%;
+}
+
+.details-button{
+    color:#61c6c4;
+    background-color: rgb(54, 52, 52);
+    padding: 5px;
+    border-radius: 10%;
+    letter-spacing: 0.1rem;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.details-button:hover{
+    background-color: rgb(173, 167, 167);
+    color: #3f807e;
+}

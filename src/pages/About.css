@@ -1,0 +1,18 @@
+.about-container {
+  padding: 70px 0;
+  text-align: center;
+  width: 65%;
+  margin: 0 auto;
+}
+
+.underline{
+    border-bottom: 3.5px solid #61c6c4;
+    width: 20%;
+    margin: 0 auto;
+}
+
+.about-info{
+    text-align: justify;
+    line-height: 1.8;
+    padding: 20px;
+}

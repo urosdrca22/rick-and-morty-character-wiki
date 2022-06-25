@@ -1,0 +1,32 @@
+.searchForm {
+  text-align: center;
+  padding: 2rem;
+  margin: 2rem;
+  margin: auto;
+  margin-top: 2rem;
+  padding: 2rem;
+}
+
+input{
+  width: 40%;
+  height: 2rem;
+  margin: auto;
+  border: none;
+  border-bottom: 1px solid #61c6c4;
+}
+
+input:focus{
+  outline: none;
+}
+
+
+::placeholder {
+  letter-spacing: 0.1rem;
+  font-size: large;
+}
+
+@media (max-width: 576px){
+  input{
+    width: 80%;
+  }
+}

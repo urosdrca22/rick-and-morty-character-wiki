@@ -1,0 +1,10 @@
+.episodes-container{
+    padding: 10px;
+}
+.episode{
+    border-bottom: 0.5px solid #171818;
+}
+
+.episode-title{
+    color: #61c6c4;
+}
